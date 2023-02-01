@@ -1,4 +1,7 @@
-const reverseString = function() {
+const reverseString = function(string) {
+    let myArray = string.split("");
+    let tempArray = myArray.reverse();
+    return tempArray.join('');
 
 };
 
